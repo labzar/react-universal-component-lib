@@ -8,7 +8,11 @@
     "build": "babel lib -d build",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "start": "echo \"start: start start start start\"",
+    "prepare": "npm run build",
+    "predeploy": "echo \"predeploy: predeploy predeploy predeploy predeploy\"",
+    "deploy": "echo \"deploy: deploy deploy deploy deploy\""
   },
   "repository": {
     "type": "git",
